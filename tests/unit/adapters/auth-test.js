@@ -1,3 +1,4 @@
+"use strict";
 import { moduleFor, test } from 'ember-qunit';
 
 moduleFor('adapter:auth', 'Unit | Adapter | auth', {

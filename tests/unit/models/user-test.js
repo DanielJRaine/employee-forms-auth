@@ -1,3 +1,4 @@
+"use strict";
 import { moduleForModel, test } from 'ember-qunit';
 
 moduleForModel('user', 'Unit | Model | user', {

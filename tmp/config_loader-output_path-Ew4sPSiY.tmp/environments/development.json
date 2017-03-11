@@ -1,1 +1,0 @@
-{"modulePrefix":"employee-forms-auth","environment":"development","rootURL":"/","locationType":"auto","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false}},"APP":{"name":"employee-forms-auth","version":"0.0.0+7e35ce12"},"apiHost":"http://localhost:4741","exportApplicationGlobal":true}

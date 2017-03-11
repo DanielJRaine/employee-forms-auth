@@ -1,3 +1,4 @@
+'use strict';
 import ENV from 'employee-forms-auth/config/environment';
 import ActiveModelAdapter from 'active-model-adapter';
 

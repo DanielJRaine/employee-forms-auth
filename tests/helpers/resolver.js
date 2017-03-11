@@ -1,3 +1,4 @@
+"use strict";
 import Resolver from '../../resolver';
 import config from '../../config/environment';
 

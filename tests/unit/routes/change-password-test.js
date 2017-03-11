@@ -1,3 +1,4 @@
+"use strict";
 import { moduleFor, test } from 'ember-qunit';
 
 moduleFor('route:change-password', 'Unit | Route | change password', {

@@ -44,9 +44,9 @@
   "regexp": false,
   "undef": true,
   "sub": true,
-  "strict": false,
   "white": false,
   "eqnull": true,
+  "strict": "global",
   "esversion": 6,
   "unused": true
 }

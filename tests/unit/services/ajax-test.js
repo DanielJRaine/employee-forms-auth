@@ -1,3 +1,4 @@
+"use strict";
 import { moduleFor, test } from 'ember-qunit';
 
 moduleFor('service:ajax', 'Unit | Service | ajax', {

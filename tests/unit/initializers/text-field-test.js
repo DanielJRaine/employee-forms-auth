@@ -1,3 +1,4 @@
+"use strict";
 import Ember from 'ember';
 import TextFieldInitializer from 'employee-forms-auth/initializers/text-field';
 import { module, test } from 'qunit';

@@ -1,3 +1,4 @@
+'use strict';
 import Ember from 'ember';
 import AjaxService from 'ember-ajax/services/ajax';
 

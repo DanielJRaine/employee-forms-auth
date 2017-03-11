@@ -1,3 +1,4 @@
+'use strict';
 import Ember from 'ember';
 import RSVP from 'rsvp';
 
