@@ -3,7 +3,7 @@
 module.exports = function (environment) {
   'use strict';
   const ENV = {
-    modulePrefix: 'ga-wdi-boston.ember-auth',
+    modulePrefix: 'employee-forms-auth',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
