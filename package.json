@@ -17,10 +17,7 @@
     "node": ">= 0.10.0"
   },
   "author": "",
-  "license": {
-    "software": "GNU GPLv3",
-    "content": "CC­BY­NC­SA 4.0"
-  },
+  "license": "MIT License",
   "devDependencies": {
     "active-model-adapter": "^2.1.1",
     "broccoli-asset-rev": "^2.5.0",

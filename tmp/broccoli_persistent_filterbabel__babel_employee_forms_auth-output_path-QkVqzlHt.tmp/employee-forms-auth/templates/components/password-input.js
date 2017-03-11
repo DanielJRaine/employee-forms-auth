@@ -1,3 +1,0 @@
-define("employee-forms-auth/templates/components/password-input", ["exports"], function (exports) {
-  exports["default"] = Ember.HTMLBars.template({ "id": "CZpaGXgn", "block": "{\"statements\":[[\"open-element\",\"label\",[]],[\"static-attr\",\"for\",\"kind\"],[\"flush-element\"],[\"text\",\"Password\"],[\"close-element\"],[\"text\",\"\\n\"],[\"append\",[\"helper\",[\"input\"],null,[[\"type\",\"id\",\"placeholder\",\"value\"],[\"password\",\"password\",\"Password\",[\"get\",[\"password\"]]]]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "employee-forms-auth/templates/components/password-input.hbs" } });
-});
