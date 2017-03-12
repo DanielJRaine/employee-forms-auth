@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"54TUK+cl","block":"{\"statements\":[[\"yield\",\"default\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[\"default\"],\"blocks\":[],\"hasPartials\":false}","meta":{"moduleName":"modules/ember-one-way-controls/templates/components/one-way-checkbox.hbs"}});

@@ -1,6 +1,6 @@
 {
   "name": "pdfjs-dist",
-  "version": "1.7.363",
+  "version": "1.7.316",
   "main": "build/pdf.js",
   "description": "Generic build of Mozilla's PDF.js library.",
   "keywords": [
@@ -12,8 +12,7 @@
   "bugs": "https://github.com/mozilla/pdf.js/issues",
   "license": "Apache-2.0",
   "dependencies": {
-    "node-ensure": "^0.0.0",
-    "worker-loader": "^0.7.1"
+    "node-ensure": "^0.0.0"
   },
   "browser": {
     "node-ensure": false
