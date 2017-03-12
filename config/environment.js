@@ -3,6 +3,9 @@
 
 module.exports = function (environment) {
   const ENV = {
+    contentSecurityPolicy: {
+      'connect-src': "'self' http:/localhost:4741"
+    },
     modulePrefix: 'employee-forms-auth',
     environment: environment,
     rootURL: '/',
