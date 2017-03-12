@@ -550,6 +550,9 @@ define('employee-forms-auth/routes/change-password', ['exports', 'ember'], funct
     }
   });
 });
+define('employee-forms-auth/routes/employee-forms', ['exports', 'ember'], function (exports, _ember) {
+  exports['default'] = _ember['default'].Route.extend({});
+});
 define('employee-forms-auth/routes/sign-in', ['exports', 'ember', 'rsvp'], function (exports, _ember, _rsvp) {
   'use strict';
   exports['default'] = _ember['default'].Route.extend({
@@ -730,6 +733,9 @@ define("employee-forms-auth/templates/components/sign-in-form", ["exports"], fun
 define("employee-forms-auth/templates/components/sign-up-form", ["exports"], function (exports) {
   exports["default"] = Ember.HTMLBars.template({ "id": "9vS5s19S", "block": "{\"statements\":[[\"append\",[\"helper\",[\"email-input\"],null,[[\"email\"],[[\"get\",[\"credentials\",\"email\"]]]]],false],[\"text\",\"\\n\"],[\"append\",[\"helper\",[\"password-input\"],null,[[\"password\"],[[\"get\",[\"credentials\",\"password\"]]]]],false],[\"text\",\"\\n\"],[\"append\",[\"helper\",[\"password-confirmation-input\"],null,[[\"password\"],[[\"get\",[\"credentials\",\"passwordConfirmation\"]]]]],false],[\"text\",\"\\n\\n\"],[\"open-element\",\"button\",[]],[\"static-attr\",\"type\",\"submit\"],[\"static-attr\",\"class\",\"btn btn-primary\"],[\"modifier\",[\"action\"],[[\"get\",[null]],\"submit\"]],[\"flush-element\"],[\"text\",\"\\n  Sign Up\\n\"],[\"close-element\"],[\"text\",\"\\n\\n\"],[\"open-element\",\"button\",[]],[\"static-attr\",\"class\",\"btn btn-default\"],[\"modifier\",[\"action\"],[[\"get\",[null]],\"reset\"]],[\"flush-element\"],[\"text\",\"\\n  Cancel\\n\"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "employee-forms-auth/templates/components/sign-up-form.hbs" } });
 });
+define("employee-forms-auth/templates/employee-forms", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "N6L4vVG0", "block": "{\"statements\":[[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "employee-forms-auth/templates/employee-forms.hbs" } });
+});
 define("employee-forms-auth/templates/sign-in", ["exports"], function (exports) {
   exports["default"] = Ember.HTMLBars.template({ "id": "41NrNLL/", "block": "{\"statements\":[[\"open-element\",\"h2\",[]],[\"flush-element\"],[\"text\",\"Sign In\"],[\"close-element\"],[\"text\",\"\\n\\n\"],[\"append\",[\"helper\",[\"sign-in-form\"],null,[[\"submit\",\"reset\",\"credentials\"],[\"signIn\",\"reset\",[\"get\",[\"model\"]]]]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "employee-forms-auth/templates/sign-in.hbs" } });
 });
@@ -775,7 +781,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("employee-forms-auth/app")["default"].create({"name":"employee-forms-auth","version":"0.0.0+e0b45099"});
+  require("employee-forms-auth/app")["default"].create({"name":"employee-forms-auth","version":"0.0.0+7093f72e"});
 }
 
 /* jshint ignore:end */
