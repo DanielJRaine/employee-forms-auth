@@ -1,3 +1,0 @@
-define("employee-forms-auth/templates/components/pdf-js", ["exports"], function (exports) {
-  exports["default"] = Ember.HTMLBars.template({ "id": "gU7Q4zdk", "block": "{\"statements\":[[\"yield\",\"default\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[\"default\"],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "employee-forms-auth/templates/components/pdf-js.hbs" } });
-});

@@ -1,0 +1,3 @@
+define("employee-forms-auth/templates/employee-forms", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "HpACZlW8", "block": "{\"statements\":[[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\\n\"],[\"open-element\",\"h1\",[]],[\"flush-element\"],[\"text\",\"Employee Forms\"],[\"close-element\"],[\"text\",\"\\n\"],[\"append\",[\"helper\",[\"pdf-js\"],null,[[\"pdf\"],[\"/forms/fw4.pdf\"]]],false]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "employee-forms-auth/templates/employee-forms.hbs" } });
+});
