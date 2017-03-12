@@ -781,7 +781,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("employee-forms-auth/app")["default"].create({"name":"employee-forms-auth","version":"0.0.0+8dbc9a26"});
+  require("employee-forms-auth/app")["default"].create({"name":"employee-forms-auth","version":"0.0.0+8cfcc278"});
 }
 
 /* jshint ignore:end */
