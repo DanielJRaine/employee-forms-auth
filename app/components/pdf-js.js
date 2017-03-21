@@ -1,5 +1,6 @@
 
 /* global PDFJS */
+'use strict';
 import Ember from 'ember'
 import layout from '../templates/components/pdf-js'
 

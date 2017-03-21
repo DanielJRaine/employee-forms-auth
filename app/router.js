@@ -11,7 +11,9 @@ Router.map(function () {
   this.route('sign-in');
   this.route('change-password');
   this.route('users');
-  this.route('employee-forms');
+  this.route('employee-forms', function() {
+    this.route('w4');
+  });
 });
 
 export default Router;

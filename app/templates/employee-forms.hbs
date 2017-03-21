@@ -1,4 +1,8 @@
-{{outlet}}
-
 <h1>Employee Forms</h1>
-{{pdf-js pdf='/forms/fw4.pdf'}}
+{{!--{{pdf-document src='/forms/fw4.pdf'}}--}}
+<ul>
+    <li>
+        {{#link-to "employee-forms.w4"}}Form W-4{{/link-to}}
+    </li>
+</ul>
+{{outlet}}
